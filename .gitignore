@@ -1,0 +1,16 @@
+# CMake build output
+build/
+.deps/
+cmake/.CMakeBuildNumber
+
+# Generated headers
+version.h
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# OS
+Thumbs.db
+.DS_Store

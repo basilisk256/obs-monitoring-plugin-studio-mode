@@ -1,0 +1,42 @@
+{
+    "dependencies": {
+        "obs-studio": {
+            "version": "32.1.1",
+            "baseUrl": "https://github.com/obsproject/obs-studio/archive/refs/tags",
+            "label": "OBS sources",
+            "hashes": {
+                "windows-x64": "8df772feae7efbf6e36fd38205e95bbc691f588be2705949226c34ba9f036b10"
+            }
+        },
+        "prebuilt": {
+            "version": "2025-05-23",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built obs-deps",
+            "hashes": {
+                "windows-x64": "88dc7bab50542b4b58194cdd5d7e6f4b73cde7c0d1ee7a040a6d9c9df05187b1"
+            }
+        },
+        "qt6": {
+            "version": "2025-05-23",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built Qt6",
+            "hashes": {
+                "windows-x64": "bd80383dc799c0bba2f7fae793613b3fbd2cc3a3712b3d3b63b490721d187d9e"
+            }
+        }
+    },
+    "platformConfig": {
+        "macos": {
+            "bundleId": "com.basilisk256.obs-audio-cue"
+        }
+    },
+    "name": "obs-audio-cue",
+    "displayName": "Audio Cue",
+    "version": "0.1.0",
+    "author": "basilisk256",
+    "website": "https://github.com/basilisk256/obs-audio-cue",
+    "email": "",
+    "uuids": {
+        "windowsApp": "B2C3D4E5-F6A7-8901-BCDE-F23456789012"
+    }
+}
